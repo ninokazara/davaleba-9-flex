@@ -142,6 +142,20 @@
     align-items: center;
 }
 /* section-4-bg */
+.section-4-title {
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.section-4-p {
+    width: 764px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 95px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+	line-height: 25px;
+}
 .div-flowers {
     background-image: url(../images/image-3.png);
     background-repeat: no-repeat;
@@ -163,5 +177,23 @@
     color: #fff;
     text-align: center;
     margin-top: 30px;
-
+}
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+}
+/* section-5 */
+.section-5 {
+    display: flex ;
+    justify-content: space-between;
+}
+.right-box-2 {
+    width: 50%;
+    padding: 86px;
+}
+.left-box-2 {
+    width: 50%;
+}
+.left-box-2 img {
+    width: 100%;
 }
