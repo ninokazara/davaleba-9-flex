@@ -146,6 +146,7 @@
     font-size: 35px;
     font-family: 'Lato', sans-serif;
     text-align: center;
+    margin-top: 95px;
 }
 .section-4-p {
     width: 764px;
@@ -196,4 +197,22 @@
 }
 .left-box-2 img {
     width: 100%;
+}
+/* section-6 */
+.section-6 {
+    display: flex;
+    justify-content: space-between;
+}
+/* footer */
+.footer {
+    background-color: blue;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
 }
