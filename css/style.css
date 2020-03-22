@@ -55,7 +55,7 @@
 .blue-div-btn {
     margin-top: 54px;
 }
-.blue-div-btn button {
+.btn {
     color: #ffffff;
     background-color: blue;
     border-radius: 35px;
@@ -66,4 +66,102 @@
     font-weight: bold;
     font-size: 14px;
     font-family: 'Lato', sans-serif;
+}
+/*Second Section*/ 
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.left-box {
+    width: 50%;
+    padding: 86px;
+}
+.p-1 {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+.p-2 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 49px;
+    margin-bottom: 60px;
+}
+.right-box {
+    width: 50%;
+}
+.right-box img {
+    width: 100%;
+}
+/* secton-3-grey */
+.section-3-grey {
+    background-color: #FAFAFA;
+	padding-top:80px;
+}
+.container {
+    width: 1160px;
+	margin: 0 auto;
+}
+.section-3-title {
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.section-3-p {
+    width: 764px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 95px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+	line-height: 25px;
+}
+.block-for-3-box {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 80px;
+}
+.small-box {
+    background-color: #fff;
+	width:369px;
+	height: 372px;
+	flex-direction: column;
+}
+.small-box p {
+    font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+    text-align: center;
+}  
+.icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section-4-bg */
+.div-flowers {
+    background-image: url(../images/image-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 601px;
+    width: 100%;
+}
+.div-flowers h4 {
+    font-size: 35px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.div-flowers-text p {
+    width: 771px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+
 }
